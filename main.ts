@@ -672,4 +672,4 @@ mySprite = sprites.create(img`
 scene.cameraFollowSprite(mySprite)
 game.showLongText("Welcome Sir Lancelot to THE KING'S KNIGHT ", DialogLayout.Bottom)
 game.showLongText("Controls: W= UP S= DOWN D= LEFT A= RIGHT B= ATTACK", DialogLayout.Bottom)
-music.play(music.createSong(hex`00780004080200`), music.PlaybackMode.UntilDone)
+music.play(music.createSong(assets.song`INTRO`), music.PlaybackMode.UntilDone)
